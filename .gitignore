@@ -1,0 +1,13 @@
+.DS_Store
+*.xcuserstate
+xcuserdata/
+DerivedData/
+build/
+.build/
+
+__pycache__/
+*.py[cod]
+
+*.csv
+*.zip
+*.log

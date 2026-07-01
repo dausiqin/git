@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D4B2401B288CAE97691728 /* MotionSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B28AB67708083D71A46854 /* MotionSample.swift */; };
+		1B11180F96AF5363B036B521 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DACE3DACA0396E393EE2961A /* Foundation.framework */; };
+		2201DB610A122CBFEECA67BA /* WatchMotionStreamer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3DFE0648B9A61AA770AFAD /* WatchMotionStreamer.swift */; };
+		2C5F7E2E7F55C9940E1B8A27 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B891D8D39A51414765B665C /* HealthKit.framework */; };
+		3779CD27F4B39EFA85F675A5 /* WatchPoseLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D1F266CFE021E8F0BAF49 /* WatchPoseLabApp.swift */; };
+		522BC1629B811829110B0C02 /* PhoneMotionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E05726EEA8BACA6D8CEC998 /* PhoneMotionRecorder.swift */; };
+		59E04B0014536F1F0C29FB1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC0411619066EB00867E0F1 /* Foundation.framework */; };
+		611A5D80419DC9AC6E4E5B44 /* MobilePoseLabWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9334EA303C3795302552E12B /* MobilePoseLabWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		73948D9414E697E1E966C377 /* MobilePoseLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1D525CAF5B706381D3D45A /* MobilePoseLabApp.swift */; };
+		798C2E1CEF7C34D70BBD9E90 /* MobilePoseLabWatchExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F54C1FD4666B8DC82AC4C81A /* MobilePoseLabWatchExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8744E26D91A17536EFE687AE /* MotionSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B28AB67708083D71A46854 /* MotionSample.swift */; };
+		A498AD7C6A20B479BED0135A /* WatchConnectivityReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E6649A6C874D8F2976AE29 /* WatchConnectivityReceiver.swift */; };
+		B3D15947F0163BF881D8A768 /* WatchCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57819C3A8214A69DBBFD67D /* WatchCaptureView.swift */; };
+		B49440F724B8C1912052DEF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DACE3DACA0396E393EE2961A /* Foundation.framework */; };
+		C58B034EA4ED592EABE4883F /* CaptureSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FDB12498572054688E9557 /* CaptureSessionStore.swift */; };
+		C84959C2C2DE831D9B9B1DB6 /* CaptureDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F3F9834846B58CCA00F70E /* CaptureDashboardView.swift */; };
+		D502CF84353337DCFA838691 /* CaptureProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57538BA999DD95ED2702AC3F /* CaptureProfile.swift */; };
+		E79D4A97DD165C4825F54C54 /* AirPodsMotionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DFDD71CD8796D4C216842C /* AirPodsMotionRecorder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0D844210EDEEB9A1F7F7467 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E44E513669371B99FF17BFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B3F4E12FDC83AF9DD10BD58;
+			remoteInfo = MobilePoseLabWatchExtension;
+		};
+		C227FAD1839A1FB438B2D6A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E44E513669371B99FF17BFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0E79EB75B7C5B5FA4812FB7;
+			remoteInfo = MobilePoseLabWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8E72666384BF41AA603A0D03 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				798C2E1CEF7C34D70BBD9E90 /* MobilePoseLabWatchExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D31BA22637FFE3B86F1F39F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				611A5D80419DC9AC6E4E5B44 /* MobilePoseLabWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1FB92D3F5A0A61F68B937E7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		206D1F266CFE021E8F0BAF49 /* WatchPoseLabApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchPoseLabApp.swift; sourceTree = "<group>"; };
+		38E6649A6C874D8F2976AE29 /* WatchConnectivityReceiver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WatchConnectivityReceiver.swift; path = Sensors/WatchConnectivityReceiver.swift; sourceTree = "<group>"; };
+		43FDB12498572054688E9557 /* CaptureSessionStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaptureSessionStore.swift; path = Session/CaptureSessionStore.swift; sourceTree = "<group>"; };
+		4B891D8D39A51414765B665C /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS11.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		57538BA999DD95ED2702AC3F /* CaptureProfile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaptureProfile.swift; path = Models/CaptureProfile.swift; sourceTree = "<group>"; };
+		5E05726EEA8BACA6D8CEC998 /* PhoneMotionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneMotionRecorder.swift; path = Sensors/PhoneMotionRecorder.swift; sourceTree = "<group>"; };
+		6BC0411619066EB00867E0F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6F3DFE0648B9A61AA770AFAD /* WatchMotionStreamer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchMotionStreamer.swift; sourceTree = "<group>"; };
+		88B28AB67708083D71A46854 /* MotionSample.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionSample.swift; path = Models/MotionSample.swift; sourceTree = "<group>"; };
+		9334EA303C3795302552E12B /* MobilePoseLabWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobilePoseLabWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57819C3A8214A69DBBFD67D /* WatchCaptureView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchCaptureView.swift; sourceTree = "<group>"; };
+		A64E2E863633A73F07F41F6E /* MobilePoseLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobilePoseLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06E2BB3F11A2B9CB268E72E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2ABFD7DDDC92B5A5606DE24 /* ARCHITECTURE.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = ARCHITECTURE.md; path = Docs/ARCHITECTURE.md; sourceTree = "<group>"; };
+		D5F3F9834846B58CCA00F70E /* CaptureDashboardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaptureDashboardView.swift; path = Views/CaptureDashboardView.swift; sourceTree = "<group>"; };
+		DACE3DACA0396E393EE2961A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS11.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EF1D525CAF5B706381D3D45A /* MobilePoseLabApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MobilePoseLabApp.swift; sourceTree = "<group>"; };
+		F54C1FD4666B8DC82AC4C81A /* MobilePoseLabWatchExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MobilePoseLabWatchExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7DFDD71CD8796D4C216842C /* AirPodsMotionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AirPodsMotionRecorder.swift; path = Sensors/AirPodsMotionRecorder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59E52B8B743E8B1C67FC8A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5F7E2E7F55C9940E1B8A27 /* HealthKit.framework in Frameworks */,
+				B49440F724B8C1912052DEF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6089AC475E4254D97F26886F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E04B0014536F1F0C29FB1A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82A793DE3E9898C98379D8F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B11180F96AF5363B036B521 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08D7DA33FBF6F072767043C5 /* WatchCompanion */ = {
+			isa = PBXGroup;
+			children = (
+				A57819C3A8214A69DBBFD67D /* WatchCaptureView.swift */,
+				6F3DFE0648B9A61AA770AFAD /* WatchMotionStreamer.swift */,
+				206D1F266CFE021E8F0BAF49 /* WatchPoseLabApp.swift */,
+				1FB92D3F5A0A61F68B937E7D /* Info.plist */,
+			);
+			path = WatchCompanion;
+			sourceTree = "<group>";
+		};
+		0C8F7CADEE3FBDC428E8035F /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				DACE3DACA0396E393EE2961A /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		23CE476C1BDF30844B445C6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49CBB6820E914B80DCA33A04 /* iOS */,
+				0C8F7CADEE3FBDC428E8035F /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45DDB2F96EBB27666379B7B8 /* Docs */ = {
+			isa = PBXGroup;
+			children = (
+				B2ABFD7DDDC92B5A5606DE24 /* ARCHITECTURE.md */,
+			);
+			path = Docs;
+			sourceTree = "<group>";
+		};
+		49CBB6820E914B80DCA33A04 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6BC0411619066EB00867E0F1 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CEA9EA37B138E96146A68703 /* MobilePoseLab */ = {
+			isa = PBXGroup;
+			children = (
+				EF1D525CAF5B706381D3D45A /* MobilePoseLabApp.swift */,
+				57538BA999DD95ED2702AC3F /* CaptureProfile.swift */,
+				88B28AB67708083D71A46854 /* MotionSample.swift */,
+				F7DFDD71CD8796D4C216842C /* AirPodsMotionRecorder.swift */,
+				5E05726EEA8BACA6D8CEC998 /* PhoneMotionRecorder.swift */,
+				38E6649A6C874D8F2976AE29 /* WatchConnectivityReceiver.swift */,
+				43FDB12498572054688E9557 /* CaptureSessionStore.swift */,
+				D5F3F9834846B58CCA00F70E /* CaptureDashboardView.swift */,
+				B06E2BB3F11A2B9CB268E72E /* Info.plist */,
+			);
+			path = MobilePoseLab;
+			sourceTree = "<group>";
+		};
+		D4A4A7CD4BE0D90042A962D9 = {
+			isa = PBXGroup;
+			children = (
+				FCAD6BF46741CB58713DFEAF /* Products */,
+				23CE476C1BDF30844B445C6B /* Frameworks */,
+				CEA9EA37B138E96146A68703 /* MobilePoseLab */,
+				45DDB2F96EBB27666379B7B8 /* Docs */,
+				08D7DA33FBF6F072767043C5 /* WatchCompanion */,
+			);
+			sourceTree = "<group>";
+		};
+		FCAD6BF46741CB58713DFEAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A64E2E863633A73F07F41F6E /* MobilePoseLab.app */,
+				9334EA303C3795302552E12B /* MobilePoseLabWatch.app */,
+				F54C1FD4666B8DC82AC4C81A /* MobilePoseLabWatchExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B3F4E12FDC83AF9DD10BD58 /* MobilePoseLabWatchExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBDCE1CEE175FE18349ED218 /* Build configuration list for PBXNativeTarget "MobilePoseLabWatchExtension" */;
+			buildPhases = (
+				364DE8D65B10C04928517C50 /* Sources */,
+				59E52B8B743E8B1C67FC8A11 /* Frameworks */,
+				770A28919413ED5E0F7E90F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobilePoseLabWatchExtension;
+			productName = MobilePoseLabWatchExtension;
+			productReference = F54C1FD4666B8DC82AC4C81A /* MobilePoseLabWatchExtension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		74A5ED5A3ED4D3F7DD2A1DB2 /* MobilePoseLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B4CCBB15AC91EDF36AC198 /* Build configuration list for PBXNativeTarget "MobilePoseLab" */;
+			buildPhases = (
+				B58457D88BA76F4D8C949EF9 /* Sources */,
+				6089AC475E4254D97F26886F /* Frameworks */,
+				31B11FB35B7C0825D4ECC78D /* Resources */,
+				9D31BA22637FFE3B86F1F39F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC039DA7DC93069B9ABDB6D3 /* PBXTargetDependency */,
+			);
+			name = MobilePoseLab;
+			productName = MobilePoseLab;
+			productReference = A64E2E863633A73F07F41F6E /* MobilePoseLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0E79EB75B7C5B5FA4812FB7 /* MobilePoseLabWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1000B9D0F1739870C42BFD2 /* Build configuration list for PBXNativeTarget "MobilePoseLabWatch" */;
+			buildPhases = (
+				807E1C952BE99BCF7BFFD0E7 /* Sources */,
+				82A793DE3E9898C98379D8F5 /* Frameworks */,
+				D37E2CA5B9C4C5713219A562 /* Resources */,
+				8E72666384BF41AA603A0D03 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23A813B9EB6F4DAA4507E4BA /* PBXTargetDependency */,
+			);
+			name = MobilePoseLabWatch;
+			productName = MobilePoseLabWatch;
+			productReference = 9334EA303C3795302552E12B /* MobilePoseLabWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E44E513669371B99FF17BFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					4B3F4E12FDC83AF9DD10BD58 = {
+						DevelopmentTeam = LC5P9M5R6N;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					74A5ED5A3ED4D3F7DD2A1DB2 = {
+						DevelopmentTeam = LC5P9M5R6N;
+						ProvisioningStyle = Automatic;
+					};
+					E0E79EB75B7C5B5FA4812FB7 = {
+						DevelopmentTeam = LC5P9M5R6N;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C4A2E2E2A9B73932B17CC1EE /* Build configuration list for PBXProject "MobilePoseLab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4A4A7CD4BE0D90042A962D9;
+			productRefGroup = FCAD6BF46741CB58713DFEAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74A5ED5A3ED4D3F7DD2A1DB2 /* MobilePoseLab */,
+				E0E79EB75B7C5B5FA4812FB7 /* MobilePoseLabWatch */,
+				4B3F4E12FDC83AF9DD10BD58 /* MobilePoseLabWatchExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31B11FB35B7C0825D4ECC78D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770A28919413ED5E0F7E90F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37E2CA5B9C4C5713219A562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		364DE8D65B10C04928517C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3779CD27F4B39EFA85F675A5 /* WatchPoseLabApp.swift in Sources */,
+				B3D15947F0163BF881D8A768 /* WatchCaptureView.swift in Sources */,
+				2201DB610A122CBFEECA67BA /* WatchMotionStreamer.swift in Sources */,
+				8744E26D91A17536EFE687AE /* MotionSample.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807E1C952BE99BCF7BFFD0E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58457D88BA76F4D8C949EF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73948D9414E697E1E966C377 /* MobilePoseLabApp.swift in Sources */,
+				D502CF84353337DCFA838691 /* CaptureProfile.swift in Sources */,
+				02D4B2401B288CAE97691728 /* MotionSample.swift in Sources */,
+				E79D4A97DD165C4825F54C54 /* AirPodsMotionRecorder.swift in Sources */,
+				522BC1629B811829110B0C02 /* PhoneMotionRecorder.swift in Sources */,
+				A498AD7C6A20B479BED0135A /* WatchConnectivityReceiver.swift in Sources */,
+				C58B034EA4ED592EABE4883F /* CaptureSessionStore.swift in Sources */,
+				C84959C2C2DE831D9B9B1DB6 /* CaptureDashboardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23A813B9EB6F4DAA4507E4BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MobilePoseLabWatchExtension;
+			target = 4B3F4E12FDC83AF9DD10BD58 /* MobilePoseLabWatchExtension */;
+			targetProxy = C0D844210EDEEB9A1F7F7467 /* PBXContainerItemProxy */;
+		};
+		EC039DA7DC93069B9ABDB6D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MobilePoseLabWatch;
+			target = E0E79EB75B7C5B5FA4812FB7 /* MobilePoseLabWatch */;
+			targetProxy = C227FAD1839A1FB438B2D6A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3689477BC93B663894C08C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=watchos*]" = arm64e;
+				"ARCHS[sdk=watchsimulator*]" = arm64;
+				CODE_SIGN_ENTITLEMENTS = WatchCompanion/MobilePoseLabWatchExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC5P9M5R6N;
+				ENABLE_DEBUG_DYLIB = NO;
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WatchCompanion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinchenxin.MobilePoseLab.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+		5570B96FEA42A195CA336CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=watchos*]" = arm64e;
+				"ARCHS[sdk=watchsimulator*]" = arm64;
+				CODE_SIGN_ENTITLEMENTS = WatchCompanion/MobilePoseLabWatchExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC5P9M5R6N;
+				ENABLE_DEBUG_DYLIB = NO;
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WatchCompanion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinchenxin.MobilePoseLab.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		579A3C957D408790BE52A91B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC5P9M5R6N;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MobilePoseLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinchenxin.MobilePoseLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+		7CCC85BEA557B5F71D8AF19D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8C66351E339EA8F7832AB015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC5P9M5R6N;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MobilePoseLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinchenxin.MobilePoseLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		B5CDFE63BE6B1952AB1722DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ED4E71250AFA60CD38158276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"ARCHS[sdk=watchos*]" = arm64e;
+				"ARCHS[sdk=watchsimulator*]" = arm64;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC5P9M5R6N;
+				ENABLE_DEBUG_DYLIB = NO;
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = MobilePoseLabWatchExtension;
+				INFOPLIST_KEY_CFBundleDisplayName = MobilePoseLabWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.qinchenxin.MobilePoseLab;
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinchenxin.MobilePoseLab.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		F727E52D0D8E62A91499FACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"ARCHS[sdk=watchos*]" = arm64e;
+				"ARCHS[sdk=watchsimulator*]" = arm64;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC5P9M5R6N;
+				ENABLE_DEBUG_DYLIB = NO;
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = MobilePoseLabWatchExtension;
+				INFOPLIST_KEY_CFBundleDisplayName = MobilePoseLabWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.qinchenxin.MobilePoseLab;
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinchenxin.MobilePoseLab.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88B4CCBB15AC91EDF36AC198 /* Build configuration list for PBXNativeTarget "MobilePoseLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579A3C957D408790BE52A91B /* Release */,
+				8C66351E339EA8F7832AB015 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4A2E2E2A9B73932B17CC1EE /* Build configuration list for PBXProject "MobilePoseLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCC85BEA557B5F71D8AF19D /* Debug */,
+				B5CDFE63BE6B1952AB1722DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBDCE1CEE175FE18349ED218 /* Build configuration list for PBXNativeTarget "MobilePoseLabWatchExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3689477BC93B663894C08C7E /* Release */,
+				5570B96FEA42A195CA336CF6 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1000B9D0F1739870C42BFD2 /* Build configuration list for PBXNativeTarget "MobilePoseLabWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F727E52D0D8E62A91499FACB /* Release */,
+				ED4E71250AFA60CD38158276 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E44E513669371B99FF17BFA /* Project object */;
+}
